@@ -12,67 +12,71 @@
   <div class="contentHolder">
     <div class="tableContainer">
       <form method="post" action="action_add.php">
-        <table>
+        <table class="addInfoInputs">
           <tr>
-            <td>Agent ID:</td>
-            <td><input type="text" name="agentId" value="VP-" required></td>
+            <td>Agent ID</td>
+            <td>:</td>
+            <td><input type="text" name="agentId" placeholder="VP-00" required></td>
           </tr>
           <tr>
-            <td>Agent Photo:</td>
-            <td><input type="text" name="picture" required></td>
+            <td>Agent Photo</td>
+            <td>:</td>
+            <td><input type="text" name="picture" placeholder="https://image.url/" required></td>
           </tr>
           <tr>
-            <td>Codename:</td>
-            <td><input type="text" name="codename" required></td>
+            <td>Codename</td>
+            <td>:</td>
+            <td><input type="text" name="codename" placeholder="Codename" required></td>
           </tr>
           <tr>
-            <td>Alt. Codename:</td>
-            <td><input type="text" name="altCodename" required></td>
+            <td>Alt. Codename</td>
+            <td>:</td>
+            <td><input type="text" name="altCodename" placeholder="Alt Codename" required></td>
           </tr>
           <tr>
-            <td>First Name:</td>
-            <td><input type="text" name="firstName" required></td>
+            <td>First Name</td>
+            <td>:</td>
+            <td><input type="text" name="firstName" placeholder="First Name" required></td>
           </tr>
           <tr>
-            <td>Last Name:</td>
-            <td><input type="text" name="lastName" required></td>
+            <td>Last Name</td>
+            <td>:</td>
+            <td><input type="text" name="lastName" placeholder="Last Name" required></td>
           </tr>
           <tr>
-            <td>Gender:</td>
-            <td>
-              <select name="gender" required>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-            </td>
+            <td>Gender</td>
+            <td>:</td>
+            <td><input type="text" name="gender" placeholder="Male / Female" required></td>
           </tr>
           <tr>
-            <td>Origin:</td>
-            <td><input type="text" name="origin" required></td>
+            <td>Origin</td>
+            <td>:</td>
+            <td><input type="text" name="origin" placeholder="Country of Origin" required></td>
           </tr>
           <tr>
-            <td>Role:</td>
-            <td>
-              <select name="role" required>
-                <option value="Duelist">Duelist</option>
-                <option value="Initiator">Initiator</option>
-                <option value="Controller">Controller</option>
-                <option value="Sentinel">Sentinel</option>
-              </select>
-            </td>
+            <td>Role</td>
+            <td>:</td>
+            <td><input type="text" name="role" placeholder="Team Role" required></td>
           </tr>
           <tr>
-            <td>Join Date:</td>
+            <td>Join Date</td>
+            <td>:</td>
             <td><input type="date" name="joinDate" required></td>
           </tr>
         </table>
 
-        <div class="save">
-          <input type="submit" value="SAVE">
-        </div>
-
-      </form>
     </div>
+
+    <div class="saveDesign">
+      <div class="saveDesignTop"></div>
+      <div class="save">
+        <input type="submit" value="SAVE AGENT INFO">
+      </div>
+      <div class="saveDesignBottom"></div>
+    </div>
+
+    </form>
+
   </div>
 
 </body>

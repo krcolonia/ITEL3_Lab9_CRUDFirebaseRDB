@@ -24,8 +24,8 @@ $db = new firebaseRDB("$databaseURL");
   <?php
 
   if (isset($_SESSION['status'])) {
-    echo "<script> alert('" . $_SESSION['status'] . 
-    "');</script>";
+    echo "<script> alert('" . $_SESSION['status'] .
+      "');</script>";
     unset($_SESSION['status']);
   }
 
@@ -84,9 +84,13 @@ $db = new firebaseRDB("$databaseURL");
 
     </div>
 
-    <a href="add.php" class="add">
-      <button>ADD NEW AGENT</button>
-    </a>
+    <div class="addDesign">
+      <div class="addDesignTop"></div>
+      <a href="add.php" class="add">
+        <button>ADD NEW AGENT</button>
+      </a>
+      <div class="addDesignBottom"></div>
+    </div>
 
   </div>
 

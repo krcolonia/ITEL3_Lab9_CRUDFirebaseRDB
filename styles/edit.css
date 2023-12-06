@@ -2,16 +2,16 @@
 
 .tableContainer {
   padding:25px;
-  background: rgba(9, 197, 207, 0.6);
-  border:solid 1px rgba(158, 250, 255,0.5);
-  border-top:solid 10px rgba(158, 250, 255,0.5);
+  background: rgba(240, 92, 87, 0.6);
+  border:solid 1px rgba(240, 92, 87,0.5);
+  border-top:solid 10px rgba(240, 92, 87,0.5);
 }
 
-.addInfoInputs input, select {
+.editInfoInputs input, select {
   width:100%;
 }
 
-.saveDesign {
+.editDesign {
   display:flex;
   justify-content: center;
   align-items: center;
@@ -21,11 +21,11 @@
   border-bottom:solid 1px rgba(255,255,255,0.3);
 }
 
-.saveDesign {
+.editDesign {
   z-index:0;
 }
 
-.saveDesignTop, .saveDesignBottom {
+.editDesignTop, .editDesignBottom {
   position:absolute;
   margin:0;
   padding:0;
@@ -36,15 +36,15 @@
   z-index:0;
 }
 
-.saveDesignTop {
+.editDesignTop {
   top:0;
 }
 
-.saveDesignBottom {
+.editDesignBottom {
   bottom:0;
 }
 
-.save input {
+.edit input {
   background-color: var(--valorantRed);
   font-family: "Tungsten-Bold";
   font-size: 2rem;
@@ -58,10 +58,10 @@
   z-index:100;
 }
 
-.save input:hover {
+.edit input:hover {
   background-color: #fd1c32;
 }
 
-.save input:active {
+.edit input:active {
   background-color: #fd6877;
 }
