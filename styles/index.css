@@ -1,0 +1,87 @@
+@import "main-components.css";
+
+.agentTable {
+  width:95%;
+  margin:25px;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: var(--valorantBlue);
+  border: var(--valorantRed) solid 5px;
+}
+
+.agentTable img {
+  background-color: black;
+  border-radius:50%;
+  padding:2px;
+}
+
+.agentTable td, .agentTable tr {
+  border: var(--valorantBlue) solid 1px;
+  padding: 5px;
+}
+
+.agentTable thead {
+  font-family: "Tungsten-Bold";
+  font-size: 1.3rem;
+  border-bottom: var(--valorantRed) solid 5px;
+}
+
+.agentTable a {
+  font-family: "Tungsten-Bold";
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: var(--valorantRed);
+  padding:5px;
+  padding-bottom:1px;
+}
+
+.agentTable a:hover {
+  background-color: #fd6877;
+}
+
+.agentTable a:active {
+  background-color: #fd1c32;
+}
+
+tbody::-webkit-scrollbar {
+  display:none;
+}
+
+tbody {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height:350px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+thead, tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.add {
+  position: absolute;
+  bottom:5vh;
+}
+
+.add button {
+  background-color: var(--valorantRed);
+  font-family: "Tungsten-Bold";
+  font-size: 2rem;
+  border:none;
+  padding-top:15px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:10px;
+}
+
+.add button:hover {
+  background-color: #fd6877;
+}
+
+.add button:active {
+  background-color: #fd1c32;
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Bahnschrift-Regular';
+  src: url('../fonts/bahnschrift.woff2') format('woff2'),
+       url('../fonts/bahnschrift.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tungsten-Bold';
+  src: url('../fonts/tungsten.woff2') format('woff2'),
+       url('../fonts/tungsten.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --valorantRed:#FD4556;
+  --valorantBlue:#101823;
+}
+
+html {
+  background-image: url('../images/wallpaper.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  color:white;
+  font-family: "Bahnschrift-Regular";
+  margin:0;
+  padding:0;
+}
+
+.contentHolder {
+  display:inline-block;
+  width:100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:rgba(255,255,255,0.1);
+  border:solid 1px rgba(255,255,255,0.3);
+  border-top:solid 8px rgba(255,255,255,0.3);
+  height: 80%;
+  width: 80%;
+}
+
+a {
+  color:white;
+}
+
+button {
+  color: white;
+}
+
+* {
+  transition: background-color 0.3s ease-in-out
+}

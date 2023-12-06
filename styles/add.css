@@ -1,0 +1,26 @@
+@import "main-components.css";
+
+.save {
+  position: absolute;
+  bottom:5vh;
+}
+
+.save input {
+  background-color: var(--valorantRed);
+  font-family: "Tungsten-Bold";
+  font-size: 2rem;
+  border:none;
+  color:white;
+  padding-top:15px;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:10px;
+}
+
+.save input:hover {
+  background-color: #fd6877;
+}
+
+.save input:active {
+  background-color: #fd1c32;
+}
