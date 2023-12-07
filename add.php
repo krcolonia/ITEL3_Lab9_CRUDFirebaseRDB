@@ -31,32 +31,32 @@
           <tr>
             <td>Alt. Codename</td>
             <td>:</td>
-            <td><input type="text" name="altCodename" placeholder="Alt Codename" required></td>
+            <td><input type="text" name="altCodename" placeholder="Alt Codename" autocomplete="off" required></td>
           </tr>
           <tr>
             <td>First Name</td>
             <td>:</td>
-            <td><input type="text" name="firstName" placeholder="First Name" required></td>
+            <td><input type="text" name="firstName" placeholder="First Name" autocomplete="off" required></td>
           </tr>
           <tr>
             <td>Last Name</td>
             <td>:</td>
-            <td><input type="text" name="lastName" placeholder="Last Name" required></td>
+            <td><input type="text" name="lastName" placeholder="Last Name" autocomplete="off" required></td>
           </tr>
           <tr>
             <td>Gender</td>
             <td>:</td>
-            <td><input type="text" name="gender" placeholder="Male / Female" required></td>
+            <td><input type="text" name="gender" placeholder="Male / Female" autocomplete="off" required></td>
           </tr>
           <tr>
             <td>Origin</td>
             <td>:</td>
-            <td><input type="text" name="origin" placeholder="Country of Origin" required></td>
+            <td><input type="text" name="origin" placeholder="Country of Origin" autocomplete="off" required></td>
           </tr>
           <tr>
             <td>Role</td>
             <td>:</td>
-            <td><input type="text" name="role" placeholder="Team Role" required></td>
+            <td><input type="text" name="role" placeholder="Team Role" autocomplete="off" required></td>
           </tr>
           <tr>
             <td>Join Date</td>
